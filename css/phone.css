@@ -1,0 +1,134 @@
+@media screen and (max-width:893px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar .nav-item .navbar-ul .list-item a {
+        padding: 0 5px;
+    }
+
+    .about-me .container {
+        flex-direction: column;
+    }
+
+    .container .about-img {
+        display: block;
+        margin: auto;
+    }
+
+    .banner {
+        padding: 70px 0;
+    }
+
+    .about-me .container {
+        padding: 30px 0;
+    }
+
+    .container .about-img img {
+        width: 100%;
+    }
+
+    .service .container .box {
+        flex-wrap: wrap;
+    }
+
+    .service .container .box .card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar .nav-item,
+    .navbar-ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-item {
+        gap: 10px;
+    }
+
+    header nav:hover {
+        display: block;
+    }
+
+    .navbar .nav-item .navbar-ul .list-item {
+        padding: 10px 0;
+    }
+
+    .navbar:hover .nav-item {
+        display: block;
+        /* visibility: visible; */
+    }
+
+    .container .content .banner-form .form-1 {
+        width: 300px;
+    }
+
+    .banner {
+        padding: 70px 0;
+    }
+
+    .about-me .container {
+        padding: 30px 0;
+    }
+
+    .container .about-img img {
+        width: 100%;
+    }
+
+    .service .container .box {
+        flex-direction: column;
+    }
+
+    .service .container .box .card {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container .content .banner-form .form-1 {
+        width: 245px;
+    }
+
+    .container .content .banner-form .form-1 input {
+        padding: 0.4rem;
+        padding-left: .5rem;
+        font-size: 1rem;
+    }
+
+    /* .container .content .banner-form .btn {
+        position: absolute;
+        width: 120px;
+    } */
+    .banner {
+        padding: 70px 0;
+    }
+
+    .about-me .container {
+        padding: 30px 0;
+    }
+
+    .container .about-img img {
+        width: 100%;
+    }
+
+    .container .content h1 {
+        font-size: 3.5rem;
+    }
+
+    .container .content .banner-form .btn-1 {
+        padding: 7px 11px;
+        right: -11px;
+    }
+
+    .service .container .box {
+        flex-direction: column;
+    }
+
+    .service .container .box .card {
+        width: 100%;
+    }
+}

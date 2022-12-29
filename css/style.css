@@ -1,0 +1,742 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: black;
+}
+
+.navbar {
+    /* color: white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+
+}
+
+.navbar .logo h1 {
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    transition: 0.5s ease-in;
+}
+
+.navbar .logo h1:hover {
+    color: #F90046;
+}
+
+.navbar .logo h1 span {
+    color: #F90046;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar .logo h1:hover span {
+    color: white;
+}
+
+.nav-item {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar .nav-item .navbar-ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-item .navbar-ul .list-item {
+    margin: 0 10px;
+}
+
+.navbar .nav-item .navbar-ul .list-item a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .nav-item .navbar-ul .list-item a:hover {
+    color: #F90046;
+}
+
+.navbar .nav-item .btn {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #F90046;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: 0.5s ease-out;
+    transition-delay: 0.5s;
+}
+
+.navbar .nav-item .btn:hover {
+    transition-delay: 0.5s;
+    transition: 0.5s ease-in;
+    background-color: rgb(236, 3, 132);
+    transform: scale(1.2);
+
+}
+
+/* ----------------------------------------banner section start------------------------------------ */
+.banner {
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    padding: 160px 0;
+}
+
+.banner .container {
+    width: 90%;
+    margin: auto;
+}
+
+.container .content {
+    color: white;
+    padding: 15px 0;
+}
+
+.container .content h4 {
+    font-size: 1.2rem;
+}
+
+.container .content h1 {
+    font-size: 4rem;
+}
+
+.container .content h3 {
+    font-size: 2.5rem;
+}
+
+.container .content .h-content {
+    padding: 10px 0;
+}
+
+.container .content .h-content span {
+    color: #F90046;
+}
+
+.container .content .banner-form {
+    padding-top: 10px;
+}
+
+.container .content .banner-form .form-1 {
+    position: relative;
+    width: 360px;
+    height: 25px;
+}
+
+.container .content .banner-form .form-1 input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.6rem;
+    padding-left: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid #F90046;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+/* .container .content .banner-form .btn {
+    position: absolute;
+    width: 120px;
+} */
+
+.container .content .banner-form .btn-1 {
+    /* margin-top: 5px;
+    margin-left: -119px; */
+    /* display: flex; */
+    position: absolute;
+    top: 4px;
+    right: -30px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(249, 0, 70);
+    padding: 10px 15px;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
+
+/* .container .content .banner-form .form-1 input,
+::placeholder {} */
+
+/* ----------------------------------------banner section end ---------------------------------- */
+
+/* ----------------------------------------about section start --------------------------------- */
+.about-me {
+    background-color: black;
+    box-shadow: 0 2px 8px 0 rgba(31, 31, 31, 0.2), 0 3px 20px 0 rgba(41, 41, 41, 0.19);
+    padding: 50px 0;
+}
+
+.about-me .container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .about-img {
+    padding: 20px 0 0 0;
+}
+
+.container .about-img img {
+    box-shadow: 0 2px 8px 0 rgba(255, 247, 247, 0.2), 0 3px 20px 0 rgba(255, 254, 254, 0.19);
+    border-radius: 2%;
+    width: 80%;
+}
+
+.container .about-text {
+    color: white;
+}
+
+.container .about-text h2,
+h3,
+p {
+    padding: 10px 0;
+}
+
+.container .about-text h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+
+.container .about-text h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.container .about-text h3:hover {
+    color: #F90046;
+}
+
+.container .about-text h3:hover span {
+    color: #fff;
+}
+
+.container .about-text h3 span {
+    color: #F90046;
+}
+
+.container .about-text p {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.container .btn-about {
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(249, 0, 70);
+    padding: 12px 25px;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    border: 1px solid #F90046;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.container .btn-about:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+
+/* -----------------------------about section end--------------------------------- */
+
+/* -----------------------------Service section start here------------------------ */
+
+.service {
+    background-color: black;
+    box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.329), 0 3px 20px 0 rgba(71, 70, 70, 0.19);
+    padding: 50px 0;
+}
+
+.service .container {
+    width: 90%;
+    margin: auto;
+}
+
+.service .container .service-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.service .container .service-header h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.service .container .box {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service .container .box .card {
+    width: 25%;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.service .container .box .card .icon {
+    padding: 10px 0;
+}
+
+.service .container .box .card .icon .fa-list,
+.fa-bell,
+.fa-user {
+    color: #F90046;
+    font-size: 3rem;
+}
+
+.service .container .box .card .icon .fa-list:hover,
+.fa-bell:hover,
+.fa-user:hover {
+    color: #0e0c74;
+    font-size: 3rem;
+}
+
+.service .container .box .card .card-title h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.service .container .box .card p {
+    color: #fff;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.service .container .box .card .btn-service {
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(249, 0, 70);
+    padding: 12px 25px;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    border: 1px solid #F90046;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.service .container .box .card .btn-service:hover {
+    background-color: #59115c;
+    transform: scale(1.1);
+    border: 1px solid #a10394;
+    /* color: rgba(144, 70, 240, 0.767); */
+}
+
+/* ------------------------------------ Service section end here --------------------------------------*/
+
+/*------------------------------------- Skill section start here ---------------------------------------- */
+.skill {
+    box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.329), 0 3px 20px 0 rgba(71, 70, 70, 0.19);
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.skill .container {
+    width: 90%;
+    margin: auto;
+}
+
+.skill .container .skill-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.skill .container .skill-title h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.skill .container .box {
+    border-radius: 15px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    box-shadow: 0px 1px 13px 8px rgb(172 184 175 / 10%),
+        0 2px 9px 0px rgb(128 125 125 / 7%);
+    padding: 15px 30px;
+}
+
+.skill .container .box .bar {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.skill .container .box .bar .info span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0;
+    animation: showmetext 0.5s 1s linear forwards;
+}
+
+@keyframes showmetext {
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill .container .box .bar .progress-line {
+    position: relative;
+    margin-top: 25px;
+    height: 10px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #1d1d1d;
+    box-shadow: inset 0 1px 1px rgba(36, 35, 35, 0.05),
+        0 1px rgba(32, 32, 32, 0.8);
+    border-radius: 20px;
+    left: 0;
+    /* top: calc(100% + 5px); */
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+
+
+.skill .container .box .bar .progress-line span {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.skill .container .box .bar .progress-line.html span {
+    width: 90%;
+    background: linear-gradient(45deg, rgba(243, 153, 69, 0.973), rgba(253, 122, 0, 0.87));
+}
+
+.skill .container .box .bar .progress-line.css span {
+    width: 85%;
+    background: linear-gradient(45deg, rgb(84, 86, 218), rgba(0, 17, 250, 0.815));
+}
+
+.skill .container .box .bar .progress-line.js span {
+    width: 60%;
+    background: linear-gradient(45deg, rgb(219, 48, 120), rgba(209, 2, 88, 0.815));
+}
+
+.skill .container .box .bar .progress-line.jquery span {
+    width: 70%;
+    background: linear-gradient(45deg, rgb(240, 221, 56), rgba(247, 210, 3, 0.897));
+}
+
+.skill .container .box .bar .progress-line.react span {
+    width: 65%;
+    background: linear-gradient(45deg, rgb(148, 50, 119), rgba(150, 1, 137, 0.815));
+}
+
+.skill .container .box .bar .progress-line span::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -13px;
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    opacity: 0;
+    animation: showmetext2 1s 2s linear forwards;
+}
+
+.skill .container .box .bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -37px;
+    color: #fdfdfd;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0;
+    animation: showmetext2 1s 2s linear forwards;
+}
+
+@keyframes showmetext2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill .container .box .bar .progress-line.html span::before {
+    border-top-color: rgba(151, 61, 9, 0.993);
+}
+
+.skill .container .box .bar .progress-line.html span::after {
+    content: '90%';
+    background: rgba(151, 61, 9, 0.993);
+}
+
+.skill .container .box .bar .progress-line.css span::before {
+    border-top-color: rgba(9, 23, 151, 0.993);
+}
+
+.skill .container .box .bar .progress-line.css span::after {
+    content: '85%';
+    background: rgba(9, 23, 151, 0.993);
+}
+
+.skill .container .box .bar .progress-line.js span::before {
+    border-top-color: rgba(150, 1, 137, 0.815);
+}
+
+.skill .container .box .bar .progress-line.js span::after {
+    content: '60%';
+    background: rgba(150, 1, 137, 0.815);
+}
+
+.skill .container .box .bar .progress-line.jquery span::before {
+    border-top-color: rgba(247, 210, 3, 0.897);
+}
+
+.skill .container .box .bar .progress-line.jquery span::after {
+    content: '70%';
+    background: rgba(247, 210, 3, 0.897);
+}
+
+.skill .container .box .bar .progress-line.react span::before {
+    border-top-color: rgba(150, 1, 137, 0.815);
+}
+
+.skill .container .box .bar .progress-line.react span::after {
+    content: '65%';
+    background: rgba(150, 1, 137, 0.815);
+}
+
+/*------------------------------------- Skill section End here ---------------------------------------- */
+
+
+/*------------------------------------- Contact section Start here ---------------------------------------- */
+
+.contact {
+    box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.329), 0 3px 20px 0 rgba(71, 70, 70, 0.19);
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact .container {
+    width: 90%;
+    margin: auto;
+}
+
+.contact .container .contact-me {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact .container .contact-me .contact-text h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.contact .container .contact-me .contact-text p {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.contact .container .contact-me .contact-text .contact-btn {
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(249, 0, 70);
+    padding: 12px 25px;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: 1px solid #F90046;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.contact .container .contact-me .contact-text .contact-btn:hover {
+
+    background-color: #59115c;
+    transform: scale(1.1);
+    border: 1px solid #a10394;
+}
+
+/*------------------------------------- Cantact section End here ---------------------------------------- */
+
+/*------------------------------------- Footer section start here ---------------------------------------- */
+
+footer {
+    box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.329), 0 3px 20px 0 rgba(71, 70, 70, 0.19);
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+footer .container .footer-text h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+footer .container .footer-text p {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+footer .container .footer-text .social {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    align-content: center;
+}
+
+
+footer .container .footer-text .social .social-item {
+    position: relative;
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    background-color: #F90046;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 4px rgb(172 184 175 / 10%),
+        0 11px 17px 0px rgb(128 125 125 / 7%);
+}
+
+footer .container .footer-text .social:hover .social-item {
+    opacity: 0.09;
+}
+
+footer .container .footer-text:hover .social .social-item:hover {
+    opacity: 1;
+}
+
+footer .container .footer-text .social a {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fdfdfd;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: 1s ease-in;
+}
+
+#facebook:hover {
+    background-color: #0300c4;
+    transform: scale(1.3);
+}
+
+#insta:hover {
+    vertical-align: middle;
+    background: radial-gradient(circle farthest-corner at 10% 100%, #fec564, transparent 50%),
+        radial-gradient(circle farthest-corner at 10% 140%, #fec564, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 0 25%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 20% 50%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 10%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 60% 20%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+        linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    transform: scale(1.3);
+}
+
+#twitter:hover {
+    background: #24A1DD;
+    transform: scale(1.3);
+}
+
+#telegram:hover {
+    background: #24A1DD;
+    transform: scale(1.3);
+}
+
+footer .container h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: oblique;
+    padding: 10px 0;
+}
+
+footer .container h2 span {
+    color: #F90046;
+}
+
+
+/*------------------------------------- Footer section End here ---------------------------------------- */
